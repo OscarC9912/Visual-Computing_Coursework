@@ -1,0 +1,103 @@
+-------------------------------------
+Assignment 2 Checklist/Grading sheet
+-------------------------------------
+
+Name: Zhonghan Chen
+Student ID: 1005770541
+
+------------------------------------------------------------------------------
+A. PLEASE ANSWER THE FOLLOWING QUESTIONS (YOUR ASSIGNMENT WILL NOT BE MARKED
+   IF THEY ARE NOT ANSWERED)
+
+  
+1. I verify that my submission adheres to the Academic Honesty policy 
+   stated in the A2 handout.
+
+   _X_ Yes   ___No
+
+2. I copied, modified, re-wrote, or re-purposed source code that was not 
+   originally written by me (in Python, Java, C++ or any other programming 
+   language). See the A2 handout for policy regarding uses of such 
+   pre-existing code
+
+   ___Yes   _X_ No
+      
+   If you checked yes, please supply the following
+   
+      - URL(s) to the original source code:
+
+      - Portion(s) of the assignment aided by that code (refer to
+        checklist below):
+
+      - Original source code should also be placed under 320/A3/extras 
+        in your submitted zip file. Please supply author name(s) if known.
+      
+3. I collaborated on this assignment with another student (Please refer to 4 for my clarification)
+   See the A2 handout for policy on assignments done in collaboration
+
+   ___Yes   _X_ No
+
+   If you checked yes, please supply the following
+
+       Student name: 
+       Portion(s) of assignment completed by that student (see checklist    
+       below)
+
+
+4. I would like to make the following clarification:
+
+      NOTE: I discussed with HUANG Longji (ID: 1004793752) on the following:
+
+         ** Discussion is on high-level idea ONLY and there is NO code copying. **
+
+         (1): How to get the X(width), Y(height) size of a single pixel (in backward_mapping)
+
+         (2): How to derive the X(horizontal), Y(vertical) range for supersampling, and the process / workflow for supersampling (in backward_mapping)
+
+         (3): For (2), we shared the material of supersampling and the link is below:
+            `https://www.sapphirenation.net/anti-aliasing-comparison-performance-quality`
+
+         (4): We discussed on how to perform bilinear interpolation based on Wikipedia's Page:
+            `https://en.wikipedia.org/wiki/Bilinear_interpolation`
+
+
+5. I would like to make another reference for clarification:
+   
+      NOTE: The link below contains ONLY the mathematical reasoning for calculating the 
+      minimum distance from a point to a line segment and there is totally NO code in any form.
+
+      Specifically, I used `https://math.stackexchange.com/questions/2248617/shortest-distance-between-a-point-and-a-line-segment`
+      to get the general idea to implement my helper function: _min_dist_calculator, which is my helper function for multiple_line_pair_algorithm.
+
+
+------------------------------------------------------------------------------
+B. PLACE AN (X) IN FRONT OF PORTIONS OF THE ASSIGNMENT THAT YOU COMPLETED IN 
+   FULL.
+   
+   If a portion of the assignment was not completed fully, please provide 
+   additional information so that we can determine whether or not you are 
+   eligible for partial credit. THE MORE INFORMATION YOU SUPPLY (EG. METHOD 
+   WHICH CONTAINS PARTIAL CODE, SUGGESTIONS ON WHERE AND WHAT TO LOOK FOR IN 
+   YOUR PARTIAL IMPLEMENTATION, DETAILED COMMENTS IN YOUR CODE, ETC) THE MORE 
+   LIKELY IT IS WE WILL BE ABLE TO MAKE AN ACCURATE ASSESSMENT
+
+_X_   ( 50 marks) Part A.1    
+							  _X_ (10 marks) backward_mapping 
+							  _X_ ( 5 marks) calculate_uv
+							  _X_ ( 5 marks) calculate_x_prime
+							  _X_ (10 marks) single_line_pair_algorithm 
+							  _X_ (20 marks) multiple_line_pair_algorithm 
+							  
+
+_X_   ( 15 marks) Part A.2	  Super-Sampling
+
+_X_   ( 15 marks) Part A.2	  Bilinear Interpolation
+
+_X_   ( 15 marks) Part B      Experimentation
+
+_X_   ( 10 marks) Part C      Lab report
+
+___   (  0 marks) Part D      Bonus
+								
+------------------------------------------------------------------------------ 
+
